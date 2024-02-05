@@ -89,7 +89,7 @@ A ideia é validar o quão capaz a solução é de detectar objetos, reconhecer 
 
 <br>
 
-### Leitura de documentos e arquivos
+### Leitura de imagem
 
 Testar a possibilidade para reconhecimento e capitação de conteúdo de documentos, podendo ser esse arquivos pdf, print, imagem ou impresso.
 
@@ -97,7 +97,7 @@ Testar a possibilidade para reconhecimento e capitação de conteúdo de documen
 
 <br>
 
-### Escrita
+### Escrita a mão
 
 Compreender se a tecnologia é capaz de extrair texto de documentos manuscritos, seja esse um orçamento ou prontuario médico, entre outros.
 
@@ -123,7 +123,51 @@ Logo após a imagem selecionada ser carregada, a identificação e extração de
 
 <br>
 
-## Analisando os outputs
+## 🔎 Analisando os outputs
+
+### Ambiente
+
+![img](outputs/img00.JPEG)
+
+<br>
+
+### Leitura de imagem
+
+![img](outputs/img01.JPEG)
+
+<br>
+
+### Escrita a mão
+
+![img](outputs/img02.jpeg)
+
+<br>
+
+## 🧠 Conclusão 
+
+O OCR do Azure é um recurso de inteligencia artificial avançado que permite extrair texto de imagens e documentos de forma rápida e precisa, usando modelos avançados de aprendizado de máquina. Oferecendo várias edições e opções de implantação para atender a diferentes cenários e necessidades, como imagens gerais, documentos digitais e digitalizados, vídeos e muito mais.
+
+Com suporte para mais de 50 idiomas, incluindo idiomas e estilos de escrita misturados, podendo reconhecer texto impresso e manuscrito. Podendo ser integrado a outros serviços de IA do Azure, como o Document Intelligence, que extrai informações adicionais e insights dos documentos.
+
+Seu poder de processamento e flexibilidade facilita a incorporação de recursos de visão computacional para aplicativos e sistemas via API.
+
+Sua agilidade se reflete na capacidade de processar imagens e documentos em questão de segundos, com alta precisão e confiabilidade. 
+
+Sua capacidade de adaptação às mudanças nas condições de iluminação, orientação, resolução e qualidade das imagens, mantem um bom desempenho para as mais variadas situações. 
+
+A possibilidade de escolher entre uma API síncrona ou assíncrona, dependendo da complexidade e do tamanho dos dados de entrada, para otimizar o tempo de resposta e o consumo de recursos.
+
+Em resumo, o emprego dessa tecnologia para empresas que bucam escalar com eficiência e economia de tempo e recurso se deve a fatores como:
+
+- Automatizar o processamento de documentos, reduzindo a necessidade de entrada manual de dados, o que aumenta a produtividade, a precisão e a segurança das informações.
+
+- Extrair textos de qualquer imagem, em qualquer idioma, em questão de segundos, agilizando o acesso e a análise das informações, facilitando a tomada de decisões e a geração de valor.
+
+- Permitir escolher entre APIs, variando de acordo com a complexidade e do tamanho dos dados de entrada, o que otimiza o tempo de resposta e o consumo de recursos.
+
+- Permitir escolher entre um serviço de nuvem ou contéiner local, dependendo das preferências e dos requisitos de implantação, o que oferece flexibilidade e escalabilidade.
+
+<br>
 
 
 
