@@ -7,13 +7,13 @@ Repositório do passo a passo criado para o desafio **Reconhecimento Facial e tr
 
 O objetido aqui é obter textos de imagens de forma rápida e eficiente sem a necessidade de programação, aproveitando os recursos tecnológicos disponíveis para reconhecer e extrair textos de qualquer imagem, em qualquer idioma, em questão de segundos.
 
-Na busca por atingir esse objetivo farei uso da visão computacional do Azure AI para detectar e interpretar textos incorporados em 3 diferentes tipos de imagens. Esse metodo é conhecido como [Reconhecimento Óptico de Caracteres (OCR)](https://learn.microsoft.com/pt-br/azure/azure-video-indexer/ocr). 
+Na busca por atingir esse objetivo farei uso da visão computacional do Azure AI para detectar e interpretar textos incorporados em 3 diferentes tipos de imagens. Esse metodo é conhecido como [*Reconhecimento Óptico de Caracteres (OCR)*](https://learn.microsoft.com/pt-br/azure/azure-video-indexer/ocr). 
 
-Esse processo usará recurso de Inteligencia Artificial do Azure, que inclui os serviços do Azure Vision Studio para testar as possibilidades com OCR.
+O processo usará recurso de Inteligencia Artificial do Azure, que inclui os serviços do Azure Vision Studio para testar as possibilidades com OCR.
 
 <br>
 
-🔹 *A documentação usada no desenvolvimento desse material está referenciada no [rodapé](#final) dessa página*.
+🔹 *A documentação usada no desenvolvimento desse material está referenciada no [rodapé](#final) desse repositório*.
 
 <br>
 
@@ -47,7 +47,7 @@ Para isso basta clicar em `Criar um recurso`, como mostra a imagem:
 
 <br>
 
-Em seguida navegue pelo menu esquerdo selecionando a opção `IA + Machine Learning` e clique em `Criar` na opção **Serviços Cognitivos**.
+Em seguida navegue pelo menu esquerdo selecionando `IA + Machine Learning` e clique em `Criar` na opção **Serviços Cognitivos**.
 
 ![img](prints/print01.png)
 
@@ -65,15 +65,15 @@ Feito isso a página **Criar Serviços Cognitivos** será carregada e as opçõe
 
 Feita a devida configuração do recurso é hora de acessar o novo [Azure AI - Vision Studio](https://portal.vision.cognitive.azure.com/), essa poderosa ferramenta permite explorar, criar e integrar recursos de visão computacional do Azure em aplicativos, sem a necessidade de programação. 
 
-As possibilidades vão desde **Reconhecimento de Produto por Análise de Imagem 4.0, Tokens de acesso limitado por Detecção Facil até SDK de Análise de Imagem da Visão de IA**.
+As possibilidades vão desde ***Reconhecimento de Produto por Análise de Imagem 4.0, Tokens de acesso limitado por Detecção Facil*** até ***SDK de Análise de Imagem da Visão de IA***.
 
-Para esse desafio usaremos o **Reconhecimento Óptico de Caracteres**, ao acessar o portal, clique em  `Ver todos recursos`.
+Para esse desafio usaremos o ***Reconhecimento Óptico de Caracteres***, ao acessar o portal, clique em  `Ver todos recursos`.
 
 ![img](prints/print03.png)
 
 <br>
 
-Na página que se abrir basta selecionar o recurso que já foi criado anteriormente e clicar no botão `Select as default resource` como mostra a imagem abaixo:
+Na página que se abre selecione o recurso que já foi criado anteriormente e clicar no botão `Select as default resource` como mostra o exemplo:
 
 ![img](prints/print04.png)
 
@@ -89,7 +89,7 @@ A ideia é apresentar diferentes cenários e necessidades frente a essa ferramen
 
 ### Foto ou video de ambiente
 
-A ideia é validar o quão capaz a solução é de detectar objetos, reconhecer e extrair texto por foto ou video de ambientes internos, em tempo real usando visão computacional.
+A ideia é validar o quão capaz a solução é de detectar objetos, reconhecer e extrair texto por foto ou video de ambientes internos e em tempo real usando visão computacional.
 
 ![img](inputs/img00.JPEG)
 
@@ -115,17 +115,17 @@ Compreender se a tecnologia é capaz de extrair texto de documentos manuscritos,
 
 Feita as configurações de recurso, do Vision Studio e o entendimento das imagens que serão usadas para input do Reconhecimento Óptico de Caracteres do Azure AI é hora de colocar a mão na massa.
 
-Na página inicial do Vision Studio, selecione a opção `Optical character recognition`, em segui clique em `Extract text from images` como mostra o print abaixo:
+Na página inicial do Vision Studio, selecione a opção `Optical character recognition`, após isso clique em `Extract text from images` como mostra o print:
 
 ![img](prints/print05.png)
 
 <br>
 
-Na página que se abre, habilite o `Try it out` e em seguida clique em `Browse for a file`, para selecionar a imagem que deseja usar. Como mostra a imagem:
+Na página que se abre, habilite o `Try it out` e em seguida clique em `Browse for a file`, para selecionar a imagem que deseja usar. Como mostrado no exemplo:
 
 ![img](prints/print06.png)
 
-Logo após a imagem selecionada ser carregada, a identificação e extração de texto acontecerá instantaneamente.
+🔹*Logo após a imagem selecionada ser carregada, a identificação e extração de texto acontece instantaneamente*.
 
 <br>
 
@@ -161,7 +161,7 @@ Sua agilidade se reflete na capacidade de processar imagens e documentos em ques
 
 Sua capacidade de adaptação às mudanças nas condições de iluminação, orientação, resolução e qualidade das imagens, mantem um bom desempenho para as mais variadas situações. 
 
-A possibilidade de escolher entre uma API síncrona ou assíncrona, dependendo da complexidade e do tamanho dos dados de entrada, para otimizar o tempo de resposta e o consumo de recursos.
+A possibilidade de escolher entre uma API síncrona ou assíncrona, dependendo da complexidade e do tamanho dos dados de entrada, colabora na otimização do tempo de resposta e consumo de recursos.
 
 Em resumo, o emprego dessa tecnologia para empresas que bucam escalar com eficiência e economia de tempo e recurso se deve a fatores como:
 
@@ -177,7 +177,7 @@ Em resumo, o emprego dessa tecnologia para empresas que bucam escalar com efici�
 
 <a id="final"></a>
 
-## 📚 Referência:
+## 📚 Referências:
 
 - Microsoft Azure - [*Soluções*](https://azure.microsoft.com/pt-br/#solutions)
 
@@ -187,6 +187,6 @@ Em resumo, o emprego dessa tecnologia para empresas que bucam escalar com efici�
 
 - API da Visão de IA do Azure - [Documentação](https://learn.microsoft.com/pt-br/azure/ai-services/computer-vision/)
 
-<br>
+<br> <br>
 
-*Estudo densenvolvido com* 🎲🎲 *em parceria com a [R3](https://ruatrez.com)*
+*Estudo densenvolvido com* 🎲🎲 *apoiado pela [R3](https://ruatrez.com)*
