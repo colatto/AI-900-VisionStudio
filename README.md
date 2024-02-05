@@ -25,7 +25,7 @@ Para executar esse desafio é necessário ter uma conta devidamente configurada 
 
 <br>
 
-## 🔧 Acessando o portal Azure
+## 😶‍🌫️ Acessando o portal Azure
 
 Ao acessar o portal de serviços do Azure você verá uma interface web que permite gerenciar e pesquisar recursos de forma fácil e intuitiva. 
 
@@ -45,9 +45,13 @@ Para isso basta clicar em `Criar um recurso`, como mostra a imagem:
 
 ![img](prints/print00.png)
 
+<br>
+
 Em seguida navegue pelo menu esquerdo selecionando a opção `IA + Machine Learning` e clique em `Criar` na opção **Serviços Cognitivos**.
 
 ![img](prints/print01.png)
+
+<br>
 
 Feito isso a página **Criar Serviços Cognitivos** será carregada e as opções de configuração usadas para atender essa necessidade foram:
 
@@ -66,6 +70,8 @@ As possibilidades vão desde **Reconhecimento de Produto por Análise de Imagem 
 Para esse desafio usaremos o **Reconhecimento Óptico de Caracteres**, ao acessar o portal, clique em  `Ver todos recursos`.
 
 ![img](prints/print03.png)
+
+<br>
 
 Na página que se abrir basta selecionar o recurso que já foi criado anteriormente e clicar no botão `Select as default resource` como mostra a imagem abaixo:
 
@@ -169,8 +175,6 @@ Em resumo, o emprego dessa tecnologia para empresas que bucam escalar com efici�
 
 <br>
 
-
-
 <a id="final"></a>
 
 ## 📚 Referência:
@@ -182,3 +186,7 @@ Em resumo, o emprego dessa tecnologia para empresas que bucam escalar com efici�
 - (OCR) Reconhecimento Óptico de Caracteres - [*Microsoft Learn*](https://learn.microsoft.com/pt-br/azure/azure-video-indexer/ocr)
 
 - API da Visão de IA do Azure - [Documentação](https://learn.microsoft.com/pt-br/azure/ai-services/computer-vision/)
+
+<br>
+
+*Estudo densenvolvido com* 🎲🎲 *em parceria com a [R3](https://ruatrez.com)*
