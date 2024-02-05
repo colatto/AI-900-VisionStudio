@@ -19,12 +19,45 @@ Esse processo usará recurso de Inteligencia Artificial do Azure, que inclui os 
 
 ## 🔧 Preparando o ambiente
 
-![Img](prints/loading.png)
-
 Para executar esse desafio é necessário ter uma conta devidamente configurada no portal Azure. (*Configure seu primeiro acesso gratuitamente [clicando aqui](https://azure.microsoft.com/pt-br/free/)*.)
 
+![Img](prints/loading.png)
 
+<br>
 
+## 🔧 Acessando o portal Azure
+
+Ao acessar o portal de serviços do Azure você verá uma interface web que permite gerenciar e pesquisar recursos de forma fácil e intuitiva. 
+
+O painel sugere as informações mais relevantes inicialmente, podendo ser personalizado para o seu cenário. Também é possível navegar pelos menus laterais para explorar os diferentes serviços, como computação, armazenamento, rede, banco de dados, inteligência artificial, entre outros. 
+
+O portal de serviços do Azure é uma ferramenta poderosa e flexível que facilita o uso da nuvem da Microsoft. 🌐
+
+<br>
+
+## 🧩 Configurando recurso
+
+Irei iniciar criando um novo recurso necessário, a configuração correta de recursos no Azure é essencial para garantir o seu funcionamento adequado, segurança, escalabilidade e otimização de custos.
+
+Cada recurso do Azure possui uma série de configurações que podem ser ajustadas de acordo com necessidades e objetivos de cada negócio. 
+
+Para isso basta clicar em `Criar um recurso`, como mostra a imagem:
+
+![img](prints/print00.png)
+
+Em seguida navegue pelo menu esquerdo selecionando a opção `IA + Machine Learning` e clique em `Criar` na opção **Serviços Cognitivos**.
+
+![img](prints/print01.png)
+
+Feito isso a página **Criar Serviços Cognitivos** será carregada e as opções de configuração usadas para atender essa necessidade foram:
+
+![img](prints/print02.png)
+
+ *Lembre que é importante configurar corretamente um recurso para aproveitar ao máximo os benefícios da nuvem*. ☁️
+
+ <br>
+
+## 🗺️ Acessando o Vision Studio
 
 
 - [Documentação Git](https://git-scm.com/doc)
