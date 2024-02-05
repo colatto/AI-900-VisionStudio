@@ -1,23 +1,28 @@
 
-# AI-900 | Lendo texto em imagens no Vision Studio
+# AI-900 | Lendo texto em imagens
 
-Repositório para armazenar meu passo a passo proposto pelo projeto **Reconhecimento Facial e transformação de imagens em Dados no Azure ML**, durante o bootcamp [*Microsoft Azure AI Fundamentals*](https://www.dio.me/bootcamp/microsoft-azure-ai-fundamentals).
+![Img](prints/azureAI.png)
 
-Para isso usarei o serviço do Azure AI para explorar recursos de reconhecimento óptico de caracteres, conhecido como OCR, o objetivo é fazer a extração de texto de imagens, sem escrever uma linha de código.
+Repositório do passo a passo criado para o desafio **Reconhecimento Facial e transformação de imagens em Dados no Azure ML**, durante o bootcamp [*Microsoft Azure AI Fundamentals*](https://www.dio.me/bootcamp/microsoft-azure-ai-fundamentals).
 
-Visando atingir esse objetivo fiz uso da visão computacional do Azure AI para detectar e interpretar textos incorporados em 3 diferentes tipos de imagens. Esse metodo é conhecido como reconhecimento óptico de caracteres (OCR). 
+O objetido aqui é obter textos de imagens de forma rápida e eficiente sem a necessidade de programação, aproveitando os recursos tecnológicos disponíveis para reconhecer e extrair textos de qualquer imagem, em qualquer idioma, em questão de segundos.
 
-Esse processo usará recurso de Inteligencia Artificial do Azure, que inclui os serviços do Azure Vision Studio para testar o OCR.
+Na busca por atingir esse objetivo farei uso da visão computacional do Azure AI para detectar e interpretar textos incorporados em 3 diferentes tipos de imagens. Esse metodo é conhecido como [Reconhecimento Óptico de Caracteres (OCR)](https://learn.microsoft.com/pt-br/azure/azure-video-indexer/ocr). 
+
+Esse processo usará recurso de Inteligencia Artificial do Azure, que inclui os serviços do Azure Vision Studio para testar as possibilidades com OCR.
 
 <br>
 
-🔹 *A documentação usada no desenvolvimento desse conteúdo está referenciada ao [final deste documento](#final)*.
+🔹 *A documentação usada no desenvolvimento desse material está referenciada no [rodapé](#final) dessa página*.
 
 <br>
 
 ## 🔧 Preparando o ambiente
 
-Para executar esse projeto é necessário ter um perfil devidamente configurado no portal Azure. (*Configure seu primeiro acesso gratuitamente [clicando aqui](https://azure.microsoft.com/pt-br/free/)*.)
+![Img](prints/loading.png)
+
+Para executar esse desafio é necessário ter uma conta devidamente configurada no portal Azure. (*Configure seu primeiro acesso gratuitamente [clicando aqui](https://azure.microsoft.com/pt-br/free/)*.)
+
 
 
 
@@ -33,4 +38,8 @@ git init
 
 ## 📚 Referência:
 
+- Microsoft Azure - [*Soluções*](https://azure.microsoft.com/pt-br/#solutions)
+
 - Read text in Vision Studio - [*Microsoft Learn*](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/05-ocr.html)
+
+- (OCR) Reconhecimento Óptico de Caracteres - [*Microsoft Learn*](https://learn.microsoft.com/pt-br/azure/azure-video-indexer/ocr) 
