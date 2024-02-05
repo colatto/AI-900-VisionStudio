@@ -59,14 +59,74 @@ Feito isso a página **Criar Serviços Cognitivos** será carregada e as opçõe
 
 ## 🗺️ Acessando o Vision Studio
 
+Feita a devida configuração do recurso é hora de acessar o novo [Azure AI - Vision Studio](https://portal.vision.cognitive.azure.com/), essa poderosa ferramenta permite explorar, criar e integrar recursos de visão computacional do Azure em aplicativos, sem a necessidade de programação. 
 
-- [Documentação Git](https://git-scm.com/doc)
-- [Documentação GitHub](https://docs.github.com)
+As possibilidades vão desde **Reconhecimento de Produto por Análise de Imagem 4.0, Tokens de acesso limitado por Detecção Facil até SDK de Análise de Imagem da Visão de IA**.
+
+Para esse desafio usaremos o **Reconhecimento Óptico de Caracteres**, ao acessar o portal, clique em  `Ver todos recursos`.
+
+![img](prints/print03.png)
+
+Na página que se abrir basta selecionar o recurso que já foi criado anteriormente e clicar no botão `Select as default resource` como mostra a imagem abaixo:
+
+![img](prints/print04.png)
+
+<br>
+
+## 🪪 Imagens para input
+
+Antes de partir para o próximo passo irei apresentar os 3 tipos de imagens que selecionei visando validar a capacidade do OCR do Azure AI de analisar de forma rápida e precisa usando seus modelos avançados de aprendizado de maquina.
+
+A ideia é apresentar diferentes cenários e necessidades frente a essa ferramenta que facilita a incorporação de recursos de visão computacional em IA para os mais variados segmentos.
+
+<br>
+
+### Foto ou video de ambiente
+
+A ideia é validar o quão capaz a solução é de detectar objetos, reconhecer e extrair texto por foto ou video de ambientes internos, em tempo real usando visão computacional.
+
+![img](inputs/img00.JPEG)
+
+<br>
+
+### Leitura de documentos e arquivos
+
+Testar a possibilidade para reconhecimento e capitação de conteúdo de documentos, podendo ser esse arquivos pdf, print, imagem ou impresso.
+
+![img](inputs/img01.JPEG) 
+
+<br>
+
+### Escrita
+
+Compreender se a tecnologia é capaz de extrair texto de documentos manuscritos, seja esse um orçamento ou prontuario médico, entre outros.
+
+![img](inputs/img02.jpeg)
+
+<br>
+
+## 🤖 Acessando o OCR do Azure AI
+
+Feita as configurações de recurso, do Vision Studio e o entendimento das imagens que serão usadas para input do Reconhecimento Óptico de Caracteres do Azure AI é hora de colocar a mão na massa.
+
+Na página inicial do Vision Studio, selecione a opção `Optical character recognition`, em segui clique em `Extract text from images` como mostra o print abaixo:
+
+![img](prints/print05.png)
+
+<br>
+
+Na página que se abre, habilite o `Try it out` e em seguida clique em `Browse for a file`, para selecionar a imagem que deseja usar. Como mostra a imagem:
+
+![img](prints/print06.png)
+
+Logo após a imagem selecionada ser carregada, a identificação e extração de texto acontecerá instantaneamente.
+
+<br>
+
+## Analisando os outputs
 
 
-```
-git init
-```
+
 <a id="final"></a>
 
 ## 📚 Referência:
@@ -75,4 +135,6 @@ git init
 
 - Read text in Vision Studio - [*Microsoft Learn*](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/05-ocr.html)
 
-- (OCR) Reconhecimento Óptico de Caracteres - [*Microsoft Learn*](https://learn.microsoft.com/pt-br/azure/azure-video-indexer/ocr) 
+- (OCR) Reconhecimento Óptico de Caracteres - [*Microsoft Learn*](https://learn.microsoft.com/pt-br/azure/azure-video-indexer/ocr)
+
+- API da Visão de IA do Azure - [Documentação](https://learn.microsoft.com/pt-br/azure/ai-services/computer-vision/)
